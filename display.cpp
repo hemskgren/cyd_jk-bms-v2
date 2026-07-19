@@ -5,8 +5,6 @@
 
 BB_SPI_LCD lcd;
 
-bool connected = bleConnected();
-
 void displayBegin()
 {
   lcd.begin(DISPLAY_CYD_22C);
@@ -28,6 +26,7 @@ void displayBegin()
 }
 
 void displayUpdate() {
+  bool connected = bleConnected();
   // top status
   lcd.setCursor(175, 8); // Set cursor position
   if (!connected) {
