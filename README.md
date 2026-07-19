@@ -42,7 +42,7 @@ The display automatically reconnects if the BLE connection is lost while keeping
 
 ### Connected
 
-Example while the vehicle is consuming approximately **1.5 A**.
+Example while the vehicle is consuming approximately **1.8 A**.
 
 ![Connected](images/connected.jpg)
 
